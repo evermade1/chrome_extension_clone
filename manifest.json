@@ -1,0 +1,25 @@
+{
+"manifest_version": 3,
+  "name": "CatGrow",
+  "description": "Growing your cat by visiting good sites",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "https://developer.chrome.com/*"
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+]
+}
